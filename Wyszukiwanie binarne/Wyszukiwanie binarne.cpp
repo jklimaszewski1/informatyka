@@ -39,7 +39,7 @@ int funkcja(int tab[], int szukana)
 		if (tab[sr] > szukana) {
 			p = sr - 1;
 		}
-			else {
+		else {
 				l = sr + 1;
 		}
 		sr = (l + p) / 2;
